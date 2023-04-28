@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsblogs",
+  "info": {
+    "singularName": "newsblog",
+    "pluralName": "newsblogs",
+    "displayName": "newsblog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topic": {
+      "type": "text"
+    },
+    "briefdescription": {
+      "type": "text"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}
